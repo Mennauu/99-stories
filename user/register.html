@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body class="login-body">
+   
+    <!-- Header -->
+    <header class="login-header">
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html" class="logo">99</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- Main content -->
+    <main class="register">
+      <h1>99 verhalen account aanmaken</h1>
+      <p>Vul de volgende gegevens in om je 99 verhalen account aan te maken</p>
+      <form novalidate>
+        <fieldset>
+          <legend>Algemeen</legend>
+          <div>
+            <label for="phone">Mobiele nummer (optioneel)</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Inloggegevens</legend>
+          <div>
+            <label for="email">E-mailadres</label>
+            <input type="email" name="email" id="email" required>
+						<span class="error" aria-live="polite"></span>
+          </div>
+          <div>
+            <label for="emailConfirm">Bevestig e-mailadres</label>
+            <input type="email" name="emailConfirm" id="emailConfirm" autocomplete="off" required>
+          </div>
+          <div>
+            <label for="password">Wachtwoord</label>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div>
+            <label for="passwordConfirm">Bevestig wachtwoord</label>
+            <input type="password" name="passwordConfirm" id="passwordConfirm" autocomplete="off" required>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Gebruikersvoorwaarden</legend>
+          <div>
+            <label for="gebruikersvoorwaarden">Ik ga akkoord met de <a href="#">gebruikersvoorwaarden</a></label>
+            <input type="checkbox" name="gebruikersvoorwaarden" id="gebruikersvoorwaarden" value="true">
+          </div>
+        </fieldset>
+        <input type="submit" value="Aanmaken">
+      </form>
+    </main>
+		<script src="../js/js.js" type="text/javascript"></script>
+  </body>
+</html>
