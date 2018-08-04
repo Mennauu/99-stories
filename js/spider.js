@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 var sitewidth = 2400,
 		siteheight = 1000;
 
@@ -67,10 +71,29 @@ var rangeToRange = function(oldVal, oldMax, oldMin, newMax, newMin){
 
 	};
 
+<<<<<<< HEAD
 spiderAnimate();
 	
 	
 var vid = document.getElementById("bgvid");
+=======
+	spiderAnimate();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	var vid = document.getElementById("bgvid");
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 var pauseButton = document.querySelector("#polina button");
 
 if (window.matchMedia('(prefers-reduced-motion)').matches) {
@@ -79,10 +102,29 @@ if (window.matchMedia('(prefers-reduced-motion)').matches) {
     pauseButton.innerHTML = "Paused";
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+//requires jQuery because I am lazy.
+
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 $(document).ready(function(){
 	setup();
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 function setup(){
 	
 	var $passage = $('#weirdtext');

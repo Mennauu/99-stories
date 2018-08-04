@@ -24,6 +24,12 @@ function partC() {
   d.querySelector(".change_information").innerHTML = "Hoe ervaar ik hetzelfde verhaal maar met een andere emotie? Hoe zou ik het beleefd hebben als ik blij was of juist verdrietig?";
 }
 
+<<<<<<< HEAD
+=======
+// How to add class (active) on specific “li” on user click with jQuery
+// https://stackoverflow.com/questions/21111946/how-to-add-class-active-on-specific-li-on-user-click-with-jquery
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 var selector, elems, makeActive;
 
 selector = 'body > section:first-of-type div:nth-of-type(2) a';

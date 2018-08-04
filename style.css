@@ -30,7 +30,11 @@ Version: 1.0
  * 1.0 Reset
  * -----------------------------------------------------------------------------
  */
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
  @import url(https://fonts.googleapis.com/css?family=Mountains+of+Christmas:700);
 
 * {
@@ -240,7 +244,11 @@ body > section:first-of-type > div:first-of-type select option {
 }
 
  /* 5.2 Sort */
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 body > section:first-of-type div:nth-of-type(2) {
   background-color: #ffc917;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
@@ -350,7 +358,11 @@ article div > div {
   position: relative;
   border-top: .0625rem solid #e6e6e9;
   padding: 1em 0;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 
 article div > div span {
   padding-right: 1.6em;
@@ -410,7 +422,11 @@ article div > div .material-icons {
   margin-bottom: 4em;
   color: #444444;
 }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 .login > div:nth-child(2) {
   background-color: #ffc917;
 }
@@ -597,6 +613,7 @@ footer nav ul li {
 
 /* Tablet */
 @media (max-width:60em) {
+<<<<<<< HEAD
 	main > div {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -604,6 +621,15 @@ footer nav ul li {
 	article:nth-child(4n) {
 	}
 
+=======
+	main > div { 
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	article:nth-child(4n) {
+	}
+	
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 	article {
 		padding-bottom: -1.125em;
 	}
@@ -758,7 +784,11 @@ select {
 .droom p {
   margin-bottom: 1em;
 }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 /* 10.1 Paranoia */
 
 .paranoia {
@@ -771,7 +801,11 @@ select {
 	background: none;
 }
 
+<<<<<<< HEAD
 video {
+=======
+video { 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
     position: fixed;
     top: 50%;
     left: 50%;
@@ -784,7 +818,11 @@ video {
 		background-size: cover;
 		transition: 1s opacity;
 }
+<<<<<<< HEAD
 .stopfade {
+=======
+.stopfade { 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
    opacity: .5;
 }
 
@@ -824,6 +862,20 @@ video {
 	max-width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 /*all spans have to be block or inline block to transform*/
 #weirdtext span{
 	display: inline-block;
@@ -835,6 +887,10 @@ video {
 	width: 15px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 /*These classes are added to each letter/span using JS so they animate*/
 .effect1{
 	animation: zoom 6s linear infinite;
@@ -846,7 +902,11 @@ video {
 }
 .effect3{
 	animation: squash 2s linear infinite;
+<<<<<<< HEAD
 	-webkit-animation: squash 2s linear infinite;
+=======
+	-webkit-animation: squash 2s linear infinite;	
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 }
 .effect4{
 	animation: rot 5s linear infinite;
@@ -857,6 +917,12 @@ video {
 	-webkit-animation: fade2 4s linear infinite;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 /*Here's a bunch of animations*/
 
 @keyframes zoom{
@@ -932,6 +998,37 @@ video {
 	}
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 /* 10.2 Charlie Sheen */
 
 .charlie {
@@ -958,12 +1055,20 @@ video {
   100% {
     background-color: #00cdcd;
   }
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 }
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
  @keyframes move {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
@@ -1015,7 +1120,11 @@ video {
   font-family: 'merkurregular';
   font-size: 2.1em;
   line-height: 1.1em;
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 }
 
 
@@ -1060,7 +1169,11 @@ video {
 
 .charlie .container {
 		max-width: 32em;
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 }
 
 .charlie .title:before {
@@ -1274,14 +1387,25 @@ video {
 
 @font-face {
     font-family: 'GalaxyfaceReg';
+<<<<<<< HEAD
     src: url('/fonts/MerryChristmasFlake.ttf');
+=======
+    src: url('MerryChristmasFlake.ttf');
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 }
 
 @font-face {
     font-family: 'Bloody';
+<<<<<<< HEAD
     src: url('/fonts/AlmostDeadBloody.ttf');
 }
 
+=======
+    src: url('AlmostDeadBloody.ttf');
+}
+
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 .wrapper {
   overflow: hidden;
   margin: 0 auto;
@@ -1291,7 +1415,11 @@ video {
 
 .christmas-gold {
 	color: #D81E1E;
+<<<<<<< HEAD
   color: gold;
+=======
+color: gold;
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 	background: -webkit-linear-gradient(transparent, transparent), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/gold_glitter.gif) repeat;
 	background: -o-linear-gradient(transparent, transparent) !important;
 	-webkit-background-clip: text !important;
@@ -1313,6 +1441,10 @@ color: #035ee2;
 	-webkit-text-fill-color: transparent !important;
 	margin: 0;
 	padding: 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 	font-weight: 900;
 	width: 100%;
 	text-align: center;
@@ -1323,7 +1455,11 @@ color: #035ee2;
 
 .christmas-red {
 	color: #D81E1E;
+<<<<<<< HEAD
 	background: -webkit-linear-gradient(transparent, transparent), url(/images/red.gif) repeat;
+=======
+	background: -webkit-linear-gradient(transparent, transparent), url(red.gif) repeat;
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 	background: -o-linear-gradient(transparent, transparent) !important;
 	-webkit-background-clip: text !important;
 	-webkit-text-fill-color: transparent !important;
@@ -1338,7 +1474,11 @@ color: #035ee2;
 
 .christmas-green {
 	color: #D81E1E;
+<<<<<<< HEAD
 	background: -webkit-linear-gradient(transparent, transparent), url(/images/green.gif) repeat;
+=======
+	background: -webkit-linear-gradient(transparent, transparent), url(green.gif) repeat;
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 	background: -o-linear-gradient(transparent, transparent) !important;
 	-webkit-background-clip: text !important;
 	-webkit-text-fill-color: transparent !important;
@@ -1355,7 +1495,11 @@ color: #035ee2;
 	.droom p {
 		font-size: 2em;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
 	.droom h1 {
 		font-size: 4em;
 	}
@@ -1396,4 +1540,12 @@ color: #035ee2;
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+<<<<<<< HEAD
 }
+=======
+}	
+
+
+
+
+>>>>>>> 087115929c445e1345f404e7bb1f4faee2692ec6
